@@ -14,6 +14,11 @@ header  .grid-layout {
     margin: 0 auto;
     background-color: yellowgreen;
     }
+
+    header .header-flex {
+        display: flex;
+        justify-content: space-between;
+    }
     header h1 {
         color: white;
         font-family: 'Titillium Web', sans-serif;  
@@ -28,7 +33,22 @@ header  .grid-layout {
         font-weight: 600;
         font-size: 30px;
     }
+
+    header nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        border: 2px solid white;
+    }
+
     
+
+    
+    
+    
+
         
         
     
