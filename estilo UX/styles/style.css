@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Titillium+Web:ital,wght@0,200;1,600&display=swap');
-
+/* reset de propriedades */
 /* font-family: 'Quicksand', sans-serif;
 font-family: 'Titillium Web', sans-serif; */
 
-body{
+body {
+     font-family: font-family: 'Quicksand', sans-serif;
+     background-color: #EDECED;
     
 }
 header{
     background-color: grey; 
 }
-header  .grid-layout {
+/* classes genéricas */
+  .grid-layout {
     width: 80%;
-    margin: 0 auto;
-    background-color: yellowgreen;
+    margin: 0 auto;  
+    /* background-color: yellowgreen; */
     }
 
     header .header-flex {
@@ -45,13 +48,34 @@ header  .grid-layout {
 
     
 
-    
-    
-    
+    Main {
+        padding-top: 20px;}
+    /* este comando coloca a imagem dentro da section, 100% da section. Obs: # é o seletor de id. */
+    main #lapis{
+    width: 100%;
+}
+/* aqui alinhamos as colunas lado a lado e determinamos seu tamanho em % */
+ main .colunas-flex {
+     display: flex;
+     justify-content: space-between;
+ }   
 
-        
-        
-    
-
+ main .coluna1 {
+     width: 75%;
+     /* background-color: violet; */
+     background-color: white;
+ }  
+ /* aside */
+ main .coluna2 { width: 23%;
+/* background-color: violet; */
 
 }
+/* articles */
+main .coluna2 article {
+    background-color: white;
+    margin-bottom: 20px;
+}
+        
+    
+
+
